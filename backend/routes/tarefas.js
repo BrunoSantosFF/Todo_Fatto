@@ -1,5 +1,6 @@
 import express from "express"
-import { getTarefas} from '../controllers/tarefa'
+import { getTarefas } from '../controllers/tarefa.js';
+
 
 const router = express.Router()
 
