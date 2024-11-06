@@ -10,4 +10,7 @@ app.use(cors());
 
 app.use('/', Router)
 
-app.listen(8000)
+const PORT = 8000;
+app.listen(PORT, () => {
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
